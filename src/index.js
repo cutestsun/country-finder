@@ -23,7 +23,7 @@ function onInputSearch(e) {
     `${BASE_URL}/${countryName}?fields=name,capital,population,flags,languages`
   )
     .then(response => {
-      if (!response.ok) {
+      if (response.status === '404') {
         throw new Error();
       }
 
@@ -42,7 +42,8 @@ function onInputSearch(e) {
     })
     .catch(error => {
       console.log(error);
-
-      return Notify.failure('Oops, there is no country with that name');
+      Notify.failure('Oops, there is no country with that name');
+      resetList();
+      resetInfo();
     });
 }
