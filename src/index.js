@@ -31,6 +31,8 @@ function onInputSearch(e) {
     })
     .then(countries => {
       if (countries.length > 10) {
+        resetList();
+        resetInfo();
         return Notify.info(
           'Too many matches found. Please enter a more specific name.'
         );
