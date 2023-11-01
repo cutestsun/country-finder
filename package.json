@@ -1,25 +1,24 @@
 {
-  "name": "goit-js-hw-10",
+  "name": "country-finder",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://cutestsun.github.io/goit-js-hw-10",
+  "homepage": "https://cutestsun.github.io/country-finder",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-10/"
+    "build": "parcel build src/*.html --public-url /country-finder/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cutestsun/goit-js-hw-10.git"
+    "url": "git+https://github.com/cutestsun/country-finder.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/cutestsun/goit-js-hw-10/issues"
+    "url": "https://github.com/cutestsun/country-finder/issues"
   },
   "dependencies": {
     "lodash.debounce": "^4.0.8",
-   
     "notiflix": "^3.2.6"
   },
   "devDependencies": {
