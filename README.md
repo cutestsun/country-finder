@@ -24,5 +24,5 @@ The following technologies were used to create this project:
 
 ## Project Launch 
 
-To see the website in action, simply follow the link: [Country Finder](https://cutestsun.github.io/goit-js-hw-10/)
+To see the website in action, simply follow the link: [Country Finder](https://cutestsun.github.io/country-finder/)
 
