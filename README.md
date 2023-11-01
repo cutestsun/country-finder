@@ -4,7 +4,7 @@ Country Finder - is a project for searching information about different countrie
 
 ## About
 
-Country Finder provides access to country data using the Rest Countries API. You can search for countries, view detailed information about each country, and save your list of favourite countries.
+Country Finder provides access to country data using the Rest Countries API. You can search for countries, view basic information about each country and when clicked, Wikipedia will open with detailed information about the country.
 
 ## Features
 
