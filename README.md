@@ -1,6 +1,6 @@
 # 🌍 Country Finder
 
-Country Finder - is a project for searching information about different countries. You can find details about any country worldwide, including its flag, capital, population, languages, etc.
+Country Finder – is a project for searching information about different countries. You can find details about any country worldwide, including its flag, capital, population, languages, etc.
 
 ## About
 
